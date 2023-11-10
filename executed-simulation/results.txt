@@ -1,0 +1,57 @@
+GM -> MCTS: E1/E9 None 1 10/10
+MCTS.py -> F1
+GM -> MinMax: F1/E9 None 2 10/10
+MinMax.py -> E8
+GM -> MCTS: F1/E8 None 1 10/10
+MCTS.py -> D1v
+GM -> MinMax: F1/E8 D1v 2 9/10
+MinMax.py -> E7
+GM -> MCTS: F1/E7 D1v 1 9/10
+MCTS.py -> E6h
+GM -> MinMax: F1/E7 D1v/E6h 2 8/10
+MinMax.py -> F7h
+GM -> MCTS: F1/E7 D1v/E6h/F7h 1 8/9
+MCTS.py -> H8v
+GM -> MinMax: F1/E7 D1v/E6h/F7h/H8v 2 7/9
+MinMax.py -> D7
+GM -> MCTS: F1/D7 D1v/E6h/F7h/H8v 1 7/9
+MCTS.py -> A7h
+GM -> MinMax: F1/D7 D1v/E6h/F7h/H8v/A7h 2 6/9
+MinMax.py -> D6
+GM -> MCTS: F1/D6 D1v/E6h/F7h/H8v/A7h 1 6/9
+MCTS.py -> F5v
+GM -> MinMax: F1/D6 D1v/E6h/F7h/H8v/A7h/F5v 2 5/9
+MinMax.py -> D5
+GM -> MCTS: F1/D5 D1v/E6h/F7h/H8v/A7h/F5v 1 5/9
+MCTS.py -> H6v
+GM -> MinMax: F1/D5 D1v/E6h/F7h/H8v/A7h/F5v/H6v 2 4/9
+MinMax.py -> D4
+GM -> MCTS: F1/D4 D1v/E6h/F7h/H8v/A7h/F5v/H6v 1 4/9
+MCTS.py -> F2
+GM -> MinMax: F2/D4 D1v/E6h/F7h/H8v/A7h/F5v/H6v 2 4/9
+MinMax.py -> D3
+GM -> MCTS: F2/D3 D1v/E6h/F7h/H8v/A7h/F5v/H6v 1 4/9
+MCTS.py -> H2h
+GM -> MinMax: F2/D3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h 2 3/9
+MinMax.py -> C3
+GM -> MCTS: F2/C3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h 1 3/9
+MCTS.py -> G2
+GM -> MinMax: G2/C3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h 2 3/9
+MinMax.py -> F2h
+GM -> MCTS: G2/C3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h/F2h 1 3/8
+MCTS.py -> H2
+GM -> MinMax: H2/C3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h/F2h 2 3/8
+MinMax.py -> C6h
+GM -> MCTS: H2/C3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h/F2h/C6h 1 3/7
+MCTS.py -> H3h
+GM -> MinMax: H2/C3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h/F2h/C6h/H3h 2 2/7
+MinMax.py -> E2v
+GM -> MCTS: H2/C3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h/F2h/C6h/H3h/E2v 1 2/6
+MCTS.py -> I2
+GM -> MinMax: I2/C3 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h/F2h/C6h/H3h/E2v 2 2/6
+MinMax.py -> C2
+GM -> MCTS: I2/C2 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h/F2h/C6h/H3h/E2v 1 2/6
+MCTS.py -> B4v
+GM -> MinMax: I2/C2 D1v/E6h/F7h/H8v/A7h/F5v/H6v/H2h/F2h/C6h/H3h/E2v/B4v 2 1/6
+MinMax.py -> C1
+MinMax wins
