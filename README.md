@@ -2,7 +2,7 @@
 MinMax algorithm versus MCTS algorithm using a game manager
 
 Game Board represented by:
-<player postions> <fence_positions> <player to move> <fences remaining>
+<player postions\> <fence_positions> <player to move\> <fences remaining\>
 
 Examples:
 
