@@ -1,6 +1,8 @@
 # MinMax-vs-MCTS
 MinMax algorithm versus MCTS algorithm using a game manager
 
+Final report: 1845347_RR
+
 Game Board represented by:
 
 <player1_position/player2_position\> <fence_positions> <player to move\> <fences_remaining1/fences_remaining2\>
